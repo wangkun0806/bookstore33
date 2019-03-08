@@ -12,6 +12,7 @@ public class DBHelper {
 	public User findUserByName(String username) {
 		String sql = "select * from user where uname='" + username + "'";
 		List<User> users = DBUtils.findUser(sql);
+		System.out.println("第二次提交");
 		return users.size()==0?null:users.get(0);
 	}
 	
