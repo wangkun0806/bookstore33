@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite
+    PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+    "http://www.tuckey.org/res/dtds/urlrewrite3.0.dtd">
+
+<urlrewrite>
+    <rule>
+        <from>/index.html</from> <!-- 页面显示地址 -->
+        <to>/index.jsp</to>  <!-- 实际映射地址 -->
+    </rule>
+    
+    <!-- <rule>
+        <from>^/user/([a-z]+)/([0-9]+)$</from>
+        <to>/index.jsp?nickname=$1&amp;age=$2</to>
+　　</rule> -->
+</urlrewrite>
+
+
+
+
+
+
