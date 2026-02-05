@@ -41,7 +41,7 @@ public class DBHelper {
 	}
 	// 修改shopcart
 	public int updateShopcart(int uid,int bid,int num) {
-		String sql = "update shopcart set num=num+" + num + " where uid=" + uid + " and bid=" + bid;
+		String sql = "update shopcart set num=" + num + " where uid=" + uid + " and bid=" + bid;
 		return DBUtils.updateTable(sql);
 	}
 	
